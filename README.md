@@ -1,4 +1,4 @@
-#  Верстке с использованием сборки на gulp 4 и scss, использован Slick.JS
+#  Верстка с использованием сборки на gulp 4 и scss, использован Slick.JS
 #   Макет  figma, присутствуют интерактивные элементы. 
 
 #  Layout using assembly on gulp 4 and scs, used Slick.JS
