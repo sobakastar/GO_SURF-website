@@ -73,7 +73,6 @@ li {
   }
 }
 
-
 .title {
   span {
     display: inline-block;
@@ -107,7 +106,7 @@ li {
 .subtitle {
   display: inline-block;
 
-     &__head {
+  &__head {
     font-weight: 800;
     font-size: 40px;
     padding-right: 10px;
@@ -132,7 +131,7 @@ li {
 .btn {
   font-weight: 800;
   font-size: 40px;
-  line-height: .9;
+  line-height: 0.9;
   span {
     padding: 17px 57px 15px 17px;
     background-color: $green;
@@ -141,7 +140,7 @@ li {
     position: relative;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 20px;
       height: 1px;
@@ -150,7 +149,7 @@ li {
       left: -10px;
     }
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       width: 25px;
       height: 21px;
@@ -167,4 +166,8 @@ li {
 .sleep,
 .shop {
   padding: 160px 0 120px;
+}
+
+.travel {
+  
 }

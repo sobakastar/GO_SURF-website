@@ -29,5 +29,12 @@ $(function() {
     focusOnSelect: true,
   })
 
+  $('.travel__slider').slick({
+    infinite: true,
+    fade: true,
+    prevArrow: '<img class="slider-arrows slider-arrow_left" src="images/arrow-left.svg" alt="">',
+    nextArrow: '<img class="slider-arrows slider-arrow_right" src="images/arrow-right.svg" alt="">',
+  })
+
 }) 
 
