@@ -10,5 +10,5 @@
 ## запуск gulp/launch gulp: 
 ## npm i gulp@4.0.2
 ## gulp
- 
+ ## https://codepen.io/komarovdesign/pen/PPRbgb ссылка на + - (удалить)
 ![demo](./demo-bg.png)

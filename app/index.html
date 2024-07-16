@@ -976,18 +976,30 @@ Book <span>Flight</span>
               <div class="holder-slider__info-subtitle">Resort</div>
               <div class="holder-slider__info-title">Auberge <br>Australia</div>
           </div>
+
           <div class="holder-slider__info-item">
               <div class="holder-slider__info-subtitle"># of Nights</div>
-              <div class="holder-slider__info-title">5 Nights</div>
+              <div class="holder-slider__info-title">
+                <div class="quantity">
+                <input type="number" min="1" max="9" step="1" value="5">
+              </div> Nights</div>
           </div>
+
           <div class="holder-slider__info-item">
               <div class="holder-slider__info-subtitle"># of Guests</div>
-              <div class="holder-slider__info-title">4 Guests</div>
+              <div class="holder-slider__info-title">
+                <div class="quantity">
+                  <input type="number" min="1" max="9" step="1" value="4">
+                </div>
+                Guests</div>
+
           </div>
+
           <div class="holder-slider__info-item">
               <div class="holder-slider__info-subtitle">Pricing</div>
               <div class="holder-slider__info-title">$349 USD
-                <br><span>Per Night</span>
+                <br>
+                <span class="holder-pricing__span">Per Night</span>
               </div>
           </div>
       </div>
@@ -1040,7 +1052,8 @@ Book <span>Flight</span>
       <div class="holder-slider__info-item">
           <div class="holder-slider__info-subtitle">Pricing</div>
           <div class="holder-slider__info-title">$349 USD 
-            <br><span>Per Night</span>
+            <br>
+            <span class="holder-pricing__span">Per Night</span>
           </div>
       </div>
     </div>
@@ -1093,7 +1106,8 @@ Book <span>Flight</span>
   <div class="holder-slider__info-item">
       <div class="holder-slider__info-subtitle">Pricing</div>
       <div class="holder-slider__info-title">$349 USD 
-        <br><span>Per Night</span>
+        <br>
+        <span class="holder-pricing__span">Per Night</span>
       </div>
   </div>
 </div>
@@ -1146,7 +1160,8 @@ Book <span>Stay</span>
   <div class="holder-slider__info-item">
       <div class="holder-slider__info-subtitle">Pricing</div>
       <div class="holder-slider__info-title">$349 USD 
-        <br><span>Per Night</span>
+        <br> 
+        <span class="holder-pricing__span">Per Night</span>
       </div>
   </div>
 </div>
@@ -1198,60 +1213,8 @@ Book <span>Stay</span>
   <div class="holder-slider__info-item">
       <div class="holder-slider__info-subtitle">Pricing</div>
       <div class="holder-slider__info-title">$349 USD 
-        <br><span>Per Night</span>
-      </div>
-  </div>
-</div>
-
-<div class="holder-slider__btn">
-<a href="#" class="btn">
-Book <span>Stay</span>
-</a>
-</div>
-
-          </div>
-
-          <div class="holder__slider-item holder-slider">
-  <div class="holder-slider__head" style="background-image: url(images/sleepslider-bg.png);">
-  <div class="holder-slider__subtitle">
-    <div class="subtitle">
-      <div class="headline-left">Resorts</div>
-      <div class="subtitle__head">Auberge&nbsp;<span>|</span>&nbsp;Australia</div>
-    </div>
-  </div>
-</div>
-<div class="holder-slider__descr" style="background-image: url(images/airplane.png);">
-  <div class="descr">
-    <div class="headline-right">Rating</div>
-    <div class="descr__head">Excellent 
-      <ul class="holder__star-list">
-        <li><img src="images/star.svg" alt=""></li>
-        <li><img src="images/star.svg" alt=""></li>
-        <li><img src="images/star.svg" alt=""></li>
-        <li><img src="images/star.svg" alt=""></li>
-        <li><img src="images/star.svg" alt=""></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="holder-slider__info">
-  <div class="holder-slider__info-item">
-      <div class="holder-slider__info-subtitle">Resort</div>
-      <div class="holder-slider__info-title">Auberge<br>Australia</div>
-  </div>
-  <div class="holder-slider__info-item">
-      <div class="holder-slider__info-subtitle"># of Nights</div>
-      <div class="holder-slider__info-title">5 Nights</div>
-  </div>
-  <div class="holder-slider__info-item">
-      <div class="holder-slider__info-subtitle"># of Guests</div>
-      <div class="holder-slider__info-title">4 Guests</div>
-  </div>
-  <div class="holder-slider__info-item">
-      <div class="holder-slider__info-subtitle">Pricing</div>
-      <div class="holder-slider__info-title">$349 USD 
-        <br><span>Per Night</span>
+        <br>
+        <span class="holder-pricing__span">Per Night</span>
       </div>
   </div>
 </div>
@@ -1304,7 +1267,62 @@ Book <span>Stay</span>
   <div class="holder-slider__info-item">
       <div class="holder-slider__info-subtitle">Pricing</div>
       <div class="holder-slider__info-title">$349 USD 
-        <br><span>Per Night</span>
+        <br>
+        <span class="holder-pricing__span">Per Night</span>
+      </div>
+  </div>
+</div>
+
+<div class="holder-slider__btn">
+<a href="#" class="btn">
+Book <span>Stay</span>
+</a>
+</div>
+
+          </div>
+
+          <div class="holder__slider-item holder-slider">
+  <div class="holder-slider__head" style="background-image: url(images/sleepslider-bg.png);">
+  <div class="holder-slider__subtitle">
+    <div class="subtitle">
+      <div class="headline-left">Resorts</div>
+      <div class="subtitle__head">Auberge&nbsp;<span>|</span>&nbsp;Australia</div>
+    </div>
+  </div>
+</div>
+<div class="holder-slider__descr" style="background-image: url(images/airplane.png);">
+  <div class="descr">
+    <div class="headline-right">Rating</div>
+    <div class="descr__head">Excellent 
+      <ul class="holder__star-list">
+        <li><img src="images/star.svg" alt=""></li>
+        <li><img src="images/star.svg" alt=""></li>
+        <li><img src="images/star.svg" alt=""></li>
+        <li><img src="images/star.svg" alt=""></li>
+        <li><img src="images/star.svg" alt=""></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="holder-slider__info">
+  <div class="holder-slider__info-item">
+      <div class="holder-slider__info-subtitle">Resort</div>
+      <div class="holder-slider__info-title">Auberge<br>Australia</div>
+  </div>
+  <div class="holder-slider__info-item">
+      <div class="holder-slider__info-subtitle"># of Nights</div>
+      <div class="holder-slider__info-title">5 Nights</div>
+  </div>
+  <div class="holder-slider__info-item">
+      <div class="holder-slider__info-subtitle"># of Guests</div>
+      <div class="holder-slider__info-title">4 Guests</div>
+  </div>
+  <div class="holder-slider__info-item">
+      <div class="holder-slider__info-subtitle">Pricing</div>
+      <div class="holder-slider__info-title">$349 USD 
+        <br>
+        <span class="holder-pricing__span">Per Night</span>
       </div>
   </div>
 </div>
@@ -1357,7 +1375,8 @@ Book <span>Stay</span>
   <div class="holder-slider__info-item">
       <div class="holder-slider__info-subtitle">Pricing</div>
       <div class="holder-slider__info-title">$349 USD 
-        <br><span>Per Night</span>
+        <br>
+        <span class="holder-pricing__span">Per Night</span>
       </div>
   </div>
 </div>

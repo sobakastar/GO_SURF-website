@@ -580,6 +580,72 @@ li {
   margin-bottom: 35px;
 }
 
+.quantity {
+  display: inline-block;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 45px;
+  height: 42px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 1px solid #eee;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: static;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #eee;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  height: 50%;
+  top: 45px;
+  right: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  bottom: -1px;
+  height: 50%;
+}
+
 .header {
   position: relative;
   overflow: hidden;
@@ -1107,7 +1173,7 @@ li {
   padding-left: 40px;
   position: relative;
 }
-.holder-slider__info-title span {
+.holder-slider__info-title .holder-pricing__span {
   font-weight: 400;
   font-size: 14px;
   line-height: 2.57;
